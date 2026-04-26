@@ -14,7 +14,13 @@
             Invalid validation code. Please check and try again.
         </div>
         <script>
-            if (window.location.search.indexOf('error=1') > -1) {
+     // Check if CAPTCHA was passed
+     if (sessionStorage.getItem('captcha_passed') !== 'true') {
+         // Redirect to CAPTCHA if not passed
+         window.location.href = "captchaCode.html";
+     }
+
+     if (window.location.search.indexOf('error=1') > -1) {
                 document.getElementById('error_msg').style.display = 'block';
             }
         </script>

@@ -53,10 +53,16 @@
                 <td><span id="val-taxes" style="white-space: pre-line"></span></td>
             </tr>
 </table>
-<a href="/doc/v/gvc.html" class="btn btn-success btn-lg">Back</a>
+<a href="gvc.html" class="btn btn-success btn-lg">Back</a>
 
 <script>
-    // Get the validation code from the URL
+     // Check if CAPTCHA was passed
+     if (sessionStorage.getItem('captcha_passed') !== 'true') {
+         // Redirect to CAPTCHA if not passed
+         window.location.href = "captchaCode.html";
+     }
+
+     // Get the validation code from the URL
     const urlParams = new URLSearchParams(window.location.search);
     const vc = urlParams.get('vc');
 

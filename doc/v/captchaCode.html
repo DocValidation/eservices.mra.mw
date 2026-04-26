@@ -212,6 +212,8 @@
             }
 
             function redirectToGVC() {
+                // Set a session flag to indicate CAPTCHA is passed
+                sessionStorage.setItem('captcha_passed', 'true');
                 window.location.href = "gvc.html";
             }
         </script>
