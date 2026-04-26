@@ -214,7 +214,18 @@
             function redirectToGVC() {
                 // Set a session flag to indicate CAPTCHA is passed
                 sessionStorage.setItem('captcha_passed', 'true');
-                window.location.href = "gvc.html";
+                
+                // Check if there's a return URL in the query parameters
+                const urlParams = new URLSearchParams(window.location.search);
+                const returnUrl = urlParams.get('return');
+                
+                if (returnUrl) {
+                    // Redirect back to the original destination
+                    window.location.href = returnUrl;
+                } else {
+                    // Default redirect if no return URL is specified
+                    window.location.href = "gvc.html";
+                }
             }
         </script>
     

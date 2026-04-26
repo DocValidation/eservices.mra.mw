@@ -7,8 +7,9 @@
     <script>
         // Check if CAPTCHA was passed
         if (sessionStorage.getItem('captcha_passed') !== 'true') {
-            // Redirect to CAPTCHA if not passed
-            window.location.href = "captchaCode.html";
+            // Redirect to CAPTCHA if not passed, including the current URL as a return destination
+            const currentUrl = window.location.href;
+            window.location.href = "captchaCode.html?return=" + encodeURIComponent(currentUrl);
         }
     </script>
     <link href="../Content/css.css" rel="stylesheet"/>
