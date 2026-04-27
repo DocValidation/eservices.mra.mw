@@ -37,24 +37,24 @@
                 event.preventDefault();
                 var code = document.getElementById('vc').value;
                 
-                // Fetch the documents database
-                fetch('../../documents.json')
-                    .then(response => response.json())
-                    .then(docs => {
-                        if (docs[code]) {
-                            // Valid code found, redirect to val.html with the code
-                            window.location.href = "val.html?vc=" + encodeURIComponent(code);
-                        } else {
-                            // Invalid code
-                            document.getElementById('error_msg').style.display = 'block';
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Error fetching documents:', error);
-                        // Fallback: if we can't fetch JSON (e.g. local file system without server),
-                        // maybe try to redirect anyway and let val.html handle it
+                // Fetch data from both databases
+                Promise.all([
+                    fetch('../../release_orders.json').then(r => r.json()).catch(() => ({})),
+                    fetch('../../declarations.json').then(r => r.json()).catch(() => ({}))
+                ]).then(([releaseOrders, declarations]) => {
+                    const docs = { ...releaseOrders, ...declarations };
+                    if (docs[code]) {
+                        // Valid code found, redirect to val.html with the code
+                        window.location.href = "val.html?vc=" + encodeURIComponent(code);
+                    } else {
+                        // Invalid code
                         document.getElementById('error_msg').style.display = 'block';
-                    });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching documents:', error);
+                    document.getElementById('error_msg').style.display = 'block';
+                });
             }
         </script>
         <hr />
