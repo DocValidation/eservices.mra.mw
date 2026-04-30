@@ -31,5 +31,16 @@
         "declarant": "CA25080",
         "items": "1",
         "taxes": "2234490.50"
+    },
+    "60240381900432": {
+        "code": "60240381900432",
+        "title": "Release Order",
+        "tpin": "70153003",
+        "importer": "LONELY PAUL MWANDIRA-ST JOHN'S HOSPITAL\r\nBOX 18, MZUZU\r\nMZUZU",
+        "office": "SONGWE BORDER",
+        "reference": "C 2510 of 30/01/2024",
+        "declarant": "CA25079",
+        "items": "1",
+        "taxes": "3850781.00"
     }
 }
