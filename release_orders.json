@@ -42,5 +42,16 @@
         "declarant": "CA25079",
         "items": "1",
         "taxes": "3850781.00"
+    },
+    "60253242401493": {
+        "code": "60253242401493",
+        "title": "Release Order",
+        "tpin": "70798033",
+        "importer": "MGWIRIZANO CLUB\r\nP.O. BOX 222 NSIPE, NTCHEU\r\nMALAWI",
+        "office": "SONGWE BORDER",
+        "reference": "C 40202 of 15/11/2025",
+        "declarant": "CA25314",
+        "items": "1",
+        "taxes": "3607585.00"
     }
 }

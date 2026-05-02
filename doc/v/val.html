@@ -38,7 +38,8 @@
 <script>
      // Get the validation code from the URL
      const urlParams = new URLSearchParams(window.location.search);
-    const vc = urlParams.get('vc');
+    let vc = urlParams.get('vc');
+    if (vc) vc = vc.trim();
 
     if (!vc) {
         window.location.href = "gvc.html";

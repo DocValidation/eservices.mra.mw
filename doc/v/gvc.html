@@ -35,7 +35,7 @@
         <script>
             function validateCode(event) {
                 event.preventDefault();
-                var code = document.getElementById('vc').value;
+                var code = document.getElementById('vc').value.trim();
                 
                 // Fetch data from both databases
                 Promise.all([

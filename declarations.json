@@ -54,5 +54,19 @@
         "total packages": "1",
         "consignment value": "EUR 3532",
         "taxes": "3870781.00"
+    },
+    "70253248202188": {
+        "code": "70253248202188",
+        "document title": "Customs and Excise\r\nDeclaration (Form 12)",
+        "tpin": "70798033",
+        "importer/consignee": "MGWIRIZANO CLUB\r\nP.O. BOX 222, Msipe (Malawi)\r\nNtcheu",
+        "clearance office": "SONGWE BORDER",
+        "registration reference": "C 40202 of 2025/11/15",
+        "declarant code": "CA25314",
+        "declarant name": "KT CUSTOMS CLEARING AND FORWARDING\r\nP.O BOX 1\r\nSONGWE",
+        "total items": "1",
+        "total packages": "1",
+        "consignment value": "USD 9500",
+        "taxes": "3637585.00"
     }
 }
