@@ -75,5 +75,16 @@
         "declarant": "CA25088",
         "items": "1",
         "taxes": "8071905.00"
+    },
+    "60241719401809": {
+        "code": "60241719401809",
+        "title": "Release Order",
+        "tpin": "70226199",
+        "importer": "PAMOZA YOUTH ORGANIZATION - PAMOZA TINGAKWANISKA\r\nP.O.BOX 326, KARONGA\r\nMALAWI",
+        "office": "SONGWE BORDER",
+        "reference": "C 15406 of 18/04/2026",
+        "declarant": "CA25080",
+        "items": "1",
+        "taxes": "3515496.00"
     }
 }
