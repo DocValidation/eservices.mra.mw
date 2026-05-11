@@ -138,5 +138,19 @@
         "total pieces": "710",
         "consignment value": "USD 5570",
         "taxes": "1952595.77"
+    },
+    "71341179063029": {
+        "code": "71341179063029",
+        "document title": "Customs and Excise\r\nDeclaration (Form 12)",
+        "tpin": "77879872",
+        "importer/consignee": "ART FOR HOPE - DONATIEN FIRE FUND\r\nKAWALE 1\r\nDZALEKA REFUGEE CAMP\r\nDOWA, Malawi",
+        "clearance office": "SONGWE BORDER",
+        "registration reference": "C 15513 of 2026/04/18",
+        "declarant code": "CA25791",
+        "declarant name": "SURFAVION CUSTOMS CLEARING AGENTS\r\nP.O BOX 40209\r\nKANENGO LILONGWE 4",
+        "total items": "1",
+        "total packages": "1",
+        "consignment value": "EUR 8363",
+        "taxes": "13761250.00"
     }
 }

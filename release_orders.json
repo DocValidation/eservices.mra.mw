@@ -108,5 +108,16 @@
         "declarant": "CA25259",
         "items": "1",
         "taxes": "1862595.77"
+    },
+    "60241719401889": {
+        "code": "60241719401889",
+        "title": "Release Order",
+        "tpin": "77879872",
+        "importer": "ART FOR HOPE - DONATIEN FIRE FUND\r\nKAWALE 1\r\nDZALEKA REFUGEE CAMP\r\nDOWA, Malawi",
+        "office": "SONGWE BORDER",
+        "reference": "C 15513 of 18/04/2026",
+        "declarant": "CA25791",
+        "items": "1",
+        "taxes": "13731250.00"
     }
 }
