@@ -166,5 +166,19 @@
         "total packages": "1",
         "consignment value": "EUR 4503",
         "taxes": "13013042.50"
+    },
+    "70194665140072": {
+        "code": "70194665140072",
+        "document title": "Customs and Excise\r\nDeclaration (Form 12)",
+        "tpin": "70526044",
+        "importer/consignee": "FARM RITE PRODUCTS\r\nP.O BOX 495 Mzuzu\r\nMALAWI",
+        "clearance office": "SONGWE BORDER",
+        "registration reference": "C 35381 of 2024/10/26",
+        "declarant code": "CA25080",
+        "declarant name": "SURFAVION CUSTOMS CLEARING AGENTS\r\nP.O BOX 40209\r\nKANENGO LILONGWE 4",
+        "total items": "1",
+        "total packages": "1",
+        "consignment value": "USD 9900",
+        "taxes": "3096442.00"
     }
 }

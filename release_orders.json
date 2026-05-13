@@ -130,5 +130,16 @@
         "declarant": "CA25872",
         "items": "1",
         "taxes": "12983042.50"
+    },
+    "60240395059039": {
+        "code": "60240395059039",
+        "title": "Release Order",
+        "tpin": "70526044",
+        "importer": "FARM RITE PRODUCTS\r\nP.O BOX 495 Mzuzu\r\nMALAWI",
+        "office": "SONGWE BORDER",
+        "reference": "C 35381 of 26/10/2024",
+        "declarant": "CA25080",
+        "items": "1",
+        "taxes": "3076442.00"
     }
 }
