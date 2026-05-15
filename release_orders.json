@@ -152,5 +152,16 @@
         "declarant": "CA25289",
         "items": "1",
         "taxes": "8071905.00"
+    },
+    "60253409301988": {
+        "code": "60253409301988",
+        "title": "Release Order",
+        "tpin": "70792330",
+        "importer": "ZIWIRI CLUB\r\nP.O BOX 45 KATOKOLI\r\nENUKWENI MALAWI",
+        "office": "DEDZA BORDER",
+        "reference": "C 42957 of 30/11/2025",
+        "declarant": "CA25304",
+        "items": "1",
+        "taxes": "10709500.00"
     }
 }

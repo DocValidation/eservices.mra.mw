@@ -194,5 +194,19 @@
         "total packages": "1",
         "consignment value": "USD 9500",
         "taxes": "8101905.00"
+    },
+    "70253401407806": {
+        "code": "70253401407806",
+        "document title": "Customs and Excise\r\nDeclaration (Form 12)",
+        "tpin": "70792330",
+        "importer/consignee": "ZIWIRI CLUB\r\nP.O BOX 45 KATOKOLI\r\nENUKWENI Malawi",
+        "clearance office": "SONGWE BORDER",
+        "registration reference": "C 42957 of 30/11/2025",
+        "declarant code": "CA25304",
+        "declarant name": "MATRAK FREIGHT SERVICES\r\nP.O BOX 4\r\nDEDZA",
+        "total items": "1",
+        "total packages": "1",
+        "consignment value": "USD 17800",
+        "taxes": "10739500.00"
     }
 }
