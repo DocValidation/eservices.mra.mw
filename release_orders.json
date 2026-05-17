@@ -163,5 +163,16 @@
         "declarant": "CA25304",
         "items": "1",
         "taxes": "10709500.00"
+    },
+    "60270619603192": {
+        "code": "60270619603192",
+        "title": "Release Order",
+        "tpin": "70753003",
+        "importer": "KAYAMBA CLUB\r\nP.O. BOX 18 BWENGU\r\nMZIMBA\r\nMALAWI",
+        "office": "SONGWE BORDER",
+        "reference": "C 32619 of 02/04/2026",
+        "declarant": "CA25503",
+        "items": "1",
+        "taxes": "8071905.00"
     }
 }
