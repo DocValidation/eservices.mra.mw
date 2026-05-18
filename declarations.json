@@ -222,5 +222,19 @@
         "total packages": "1",
         "consignment value": "USD 9351",
         "taxes": "3870781.00"
+    },
+    "71027966541065": {
+        "code": "71027966541065",
+        "document title": "Customs and Excise\r\nDeclaration (Form 12)",
+        "tpin": "40971691",
+        "importer/consignee": "TIDZIWANE CLUB\r\nP.O. BOX 173 MPONELA DOWA\r\nMALAWI",
+        "clearance office": "SONGWE BORDER",
+        "registration reference": "C 16772 of 2025/11/19",
+        "declarant code": "CA25220",
+        "declarant name": "TWESA FREIGHT SERVICES\r\nP.O. BOX 926\r\nLILONGWE",
+        "total items": "1",
+        "total packages": "1",
+        "consignment value": "USD 19725",
+        "taxes": "7973849.25"
     }
 }

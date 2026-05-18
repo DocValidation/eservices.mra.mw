@@ -185,5 +185,16 @@
         "declarant": "CA25168",
         "items": "1",
         "taxes": "3850781.00"
+    },
+    "60240203440688": {
+        "code": "60240203440688",
+        "title": "Release Order",
+        "tpin": "40971691",
+        "importer": "TIDZIWANE CLUB\r\nP.O. BOX 173 MPONELA\r\nDOWA\r\nMALAWI",
+        "office": "SONGWE BORDER",
+        "reference": "C 16772 of 19/11/2025",
+        "declarant": "CA25220",
+        "items": "1",
+        "taxes": "7943849.25"
     }
 }
