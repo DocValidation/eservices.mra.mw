@@ -207,5 +207,16 @@
         "declarant": "CA25018",
         "items": "1",
         "taxes": "5542711.00"
+    },
+    "60255601690318": {
+        "code": "60255601690318",
+        "title": "Release Order",
+        "tpin": "40693633",
+        "importer": "SIMION KAPOMBA\r\nP.O BOX 50  MPONELA\r\nMALAWI",
+        "office": "SONGWE BORDER",
+        "reference": "C 4286 of 07/10/2025",
+        "declarant": "CA25181",
+        "items": "1",
+        "taxes": "8071905.00"
     }
 }
